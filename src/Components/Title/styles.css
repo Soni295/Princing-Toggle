@@ -1,11 +1,13 @@
 .title-box{
-  border-bottom: 4px solid;
-  border-color: #59c384;
-  margin: auto;
-  display: inline-block;
   margin-bottom: 30px;
 }
 .title{
   font-weight: 800;
   margin-bottom: 10px;
+}
+.falseline{
+  width: 30px;
+  margin: auto;
+  border-top: solid 4px #59c384;
+  border-radius: 10px;
 }
