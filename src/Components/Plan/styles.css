@@ -1,0 +1,48 @@
+.table-price{
+  width: 280px;
+  border-radius: 35px;
+  box-shadow: 2px 7px 7px 2px rgba(0, 0, 0, 0.19);
+  margin: 10px;
+}
+.info{
+  color: #8a8aab;
+  font-size: 13px;
+}
+.plan-title{
+  font-size: 25px;
+  font-weight: 900;
+}
+.btn {
+  color: #e5eff7;
+  background: #59c384;
+  border: 1px solid #59c384; 
+  border-radius: 20px;
+  padding: 10px;
+  outline: none;
+  width: 80%;
+  margin: 18px 0px;
+}
+.btn:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background: #6dc79e;
+  border: 1px solid #8c8c8c;
+}
+#price{
+  color:#383f61;
+  display: inline;
+  font-weight: 900;
+  font-size: 40px;
+}
+#annualy{
+  display: inline;
+}
+.ball-div{
+  background:#59c384;
+  height: 75px;
+  width: 75px;
+  border-radius: 100%;
+  margin: auto;
+  margin-top: 20px ;
+  margin-bottom: 20px ;
+}

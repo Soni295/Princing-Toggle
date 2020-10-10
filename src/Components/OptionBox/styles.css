@@ -1,0 +1,29 @@
+.option-box {
+  margin: auto;
+  margin-bottom: 20px;
+  max-width: 220px; 
+  padding: 5px;
+  box-shadow: 3px 5px 5px 3px rgba(0,0,0, 0.15);
+  border-radius: 30px;
+  height: 40px;
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+  grid-gap: 8px;
+}
+
+  
+.option-box > button{
+  font-size: 14px;
+  border-radius: 20px;
+  color: #e5eff7;
+  outline: none;
+  border: none;
+  background: #59c384;
+}
+
+.option-box > button:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background: #6dc79e;
+  border: 1px solid #8c8c8c;
+}

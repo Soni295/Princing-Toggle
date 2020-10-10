@@ -1,44 +1,16 @@
-import React,{ useState } from 'react';
+import React from 'react';
+import BoxOfPlans from './Components/BoxOfPlans/index'
+import Title from './Components/Title/index'
+import OptionBox from './Components/OptionBox/index'
 import './App.css';
-import data from './Config/Config'
-import BoxOfPlans from './Components/BoxOfPlans'
 
-
-const OptionBox = ({annualy, setAnnualy}) => {
-  
-  const handleAnnualy = () => setAnnualy(true)
-  const handleMonthly = () => setAnnualy(false)
-  
-  return(
-    <div className='option-box'>
-      <button 
-        onClick={() => handleMonthly(annualy)}
-      >
-        Monthly
-      </button>
-      <button 
-        onClick={() => handleAnnualy(annualy)}
-      >
-        Annualy
-      </button>
+// App
+export default () => (
+  <div className='App'>
+   <div>
+      <Title />
+      <OptionBox />
+      <BoxOfPlans />
     </div>
-  )
-}
-
-const handleSingUp = () => console.log('Hola')
-
-export default () => {
-  const [annualy, setAnnualy] = useState(false) 
-  return (
-    <div className='App'>
-      <OptionBox 
-        annualy={annualy}
-        setAnnualy={setAnnualy}
-      />
-      <BoxOfPlans
-        data={data} 
-        annualy={annualy}
-      />
-    </div>
-  )
-}
+  </div>
+)

@@ -6,39 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.option-box {
-  background: red;
-  margin: auto;
-  max-width: 250px;
-  border: ;
-  box-shadow: 0px 7px 58px -15px rgba(0,0,0,0.85);
-  border-radius: 30px;
-  height: 40px;
-}
-.option-box > button{
-  color: red;
-}
-.info{
-  color: #a4a4af;
-}
-
-.btn {
-  color: #e5eff7;
-  background: #59c384;
-  border: 1px solid #59c384; 
-  border-radius: 20px;
-  padding: 10px;
-  outline: none;
-}
-.btn:hover {
-  cursor: pointer;
-  color: #ffffff;
-  background: #6dc79e;
-  border: 1px solid #8c8c8c;
 }
