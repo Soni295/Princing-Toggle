@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.css'
-import BtnSingIn, { price, typeOfSus } from './Aux'
+import BtnSingUp, { price, typeOfSus } from './Aux'
 
 // Plan
 export default ({data, annualy}) => {
@@ -28,7 +28,7 @@ export default ({data, annualy}) => {
       <p className='info'>{emailAdress} Email Adress</p>
       <p className='info'>{wordPress}</p>
       <p className='info'>{support}</p>
-      <BtnSingIn data={{type:type, paymentType}}/>
+      <BtnSingUp data={{type:type, paymentType}}/>
     </div>
   ) 
 }
