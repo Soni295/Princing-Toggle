@@ -2,6 +2,7 @@ import React from 'react'
 import Plan from '../Plan/index'
 import { useData } from '../../Context/Context'
 import './styles.css'
+
 export default () => {
   const { data, annualy } = useData()
   return(

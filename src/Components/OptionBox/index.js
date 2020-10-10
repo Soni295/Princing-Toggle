@@ -1,15 +1,8 @@
-import React from 'react';
+import React from 'react'
 import { useData } from '../../Context/Context'
+import { active, desactive } from './Aux'
 import './styles.css'
 
-const active = {
-  background: '#59c384',
-  color: '#e5eff7'
-} 
-const desactive = {
-  background: '#d5efe9',
-  color: '#59c384'
-}
 
 // OptionBox
 export default () => {

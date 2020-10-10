@@ -1,24 +1,6 @@
 import React from 'react'
 import './styles.css'
-
-// Pasa el precio con un 5% de descuento anualizado
-const AnnualyConvert = price => parseInt(price * 12 * 0.95)
-
-// Chequea si convertir o no el precio
-const price = (Monthly, annualy) => annualy ? AnnualyConvert(Monthly) : Monthly
-
-// texto Anual / Mensual
-const typeOfSus = annualy => annualy ? '/Annualy': '/Monthly'
-
-const BtnSingIn =({data}) => {
-  const handleSignIn = data => {
-    alert('El tipo de servicio seria ' +JSON.stringify(data))
-    alert('Modal en proceso')
-  }
-
-  return  <button   onClick={() => handleSignIn(data)}
-      className='btn'> Sing Up</button>
-}
+import BtnSingIn, { price, typeOfSus } from './Aux'
 
 // Plan
 export default ({data, annualy}) => {
@@ -31,6 +13,7 @@ export default ({data, annualy}) => {
     price:price(monthly,annualy),
     sus:typeOfSus(annualy)
   }
+
   return(
     <div className='table-price'>
       <p className='plan-title'>{type}</p>
