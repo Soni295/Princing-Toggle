@@ -1,5 +1,5 @@
 import React from 'react'
-import Plan from '../Plan/index'
+import Plan from './Plan/index'
 import { useData } from '../../Context/Context'
 import './styles.css'
 

@@ -7,7 +7,7 @@ import './App.css';
 // App
 export default () => (
   <div className='App'>
-   <div>
+   <div className='general-box'>
       <Title />
       <OptionBox />
       <BoxOfPlans />

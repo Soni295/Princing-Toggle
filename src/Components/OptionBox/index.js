@@ -3,7 +3,6 @@ import { useData } from '../../Context/Context'
 import { active, desactive } from './Aux'
 import './styles.css'
 
-
 // OptionBox
 export default () => {
   const { setAnnualy, annualy } = useData()

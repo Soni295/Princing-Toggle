@@ -10,8 +10,8 @@ export default ({data, annualy}) => {
   const { support } = data
   //const { Img } = data
   const paymentType = {
-    price:price(monthly,annualy),
-    sus:typeOfSus(annualy)
+    price: price(monthly,annualy),
+    sus: typeOfSus(annualy)
   }
 
   return(
