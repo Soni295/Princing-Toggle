@@ -16,12 +16,12 @@ If you start the proyect, copy and paste these commands in your console.
 
 ## Desktop
 
-<img src="view/Desktop.png" alt="Desktop" width="600"/>
+<img src="view/Desktop.png" alt="Desktop" width="700"/>
 
 ## Phone
 
-
+<div>
 <img src="view/phone1.png" alt="Desktop" width="300"/>
 <img src="view/phone2.png" alt="Desktop" width="300"/>
-
+</div>
 
