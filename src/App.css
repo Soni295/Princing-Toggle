@@ -1,21 +1,34 @@
-*{
+html {
+  font-size: 100%;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+body{
   margin: 0px;
   padding: 0px;
 }
-body{
-  background-color:#7272da ;
-}
 .App {
-  margin-top: 40px;
-  text-align: center;
+  height: 100vh;
   background-color:#7272da;
   display: flex;
 }
 .general-box{
+  text-align: center;
   margin: auto;
-  background-color: white;
+  background-color:#fcfcfc ;
   width: 70%;
   padding: 40px;
   padding-top: 50px;
   border-radius: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .general-box{
+    width: 100%;
+    border-radius: 0px;
+    padding: 0px;
+  }
+  .table-price{
+    width: 300px;
+  }
 }

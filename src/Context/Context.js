@@ -1,12 +1,9 @@
 import React, { useState, useMemo } from 'react'
-import { basic, premium, business } from './Plans'
+import { data } from './Plans'
 const DataContext = React.createContext()
 
 export const DataProvider = props => {
   const [annualy, setAnnualy] = useState(false)
-  
-  const data = [ basic, premium, business ]
-  
   const value = useMemo(() => 
     ({data, annualy, setAnnualy}), [data,  annualy])
 

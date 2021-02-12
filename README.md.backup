@@ -4,6 +4,15 @@
 ### Practice styles responsibe with react
 
 
+## Desktop
+---
+<img src="view/Desktop.png" alt="Desktop" width="600"/>
+
+## Phone
+---
+
+<img src="view/phone1.png" alt="Desktop" width="300"/>
+<img src="view/phone2.png" alt="Desktop" width="300"/>
 
 If you start the proyect, copy and paste these commands in your console.
 
@@ -13,15 +22,3 @@ If you start the proyect, copy and paste these commands in your console.
  $ yarn install
  $ yarn start 
  ```
-
-## Desktop
-
-<img src="view/Desktop.png" alt="Desktop" width="600"/>
-
-## Phone
-
-
-<img src="view/phone1.png" alt="Desktop" width="300"/>
-<img src="view/phone2.png" alt="Desktop" width="300"/>
-
-

@@ -1,6 +1,7 @@
 import React from 'react'
-import './styles.css'
 import BtnSingUp, { price, typeOfSus } from './Aux'
+import './styles.css'
+
 
 // Plan
 export default ({data, annualy}) => {
@@ -18,9 +19,8 @@ export default ({data, annualy}) => {
     <div className='table-price'>
       <p className='plan-title'>{type}</p>
       <div className='ball-div'></div>
-      {/*<img className='ball-img' src={Img} />*/}
       <div>
-        <p id='price'>${paymentType.price}</p>
+        <p  id='price'>${paymentType.price}</p>
         <p className='info'id='annualy'>{paymentType.sus}</p>
       </div>
       <p className='info'>{diskspace} Gb Diskspace</p>

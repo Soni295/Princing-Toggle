@@ -10,6 +10,8 @@ class Plan{
   }
 }
 
-export const basic = new Plan('Basic', 39, 1, 10, 2) 
-export const premium = new Plan('Premium', 49, 5, 50, 4) 
-export const business = new Plan('Business', 59, 20, 100, 10) 
+const basic = new Plan('Basic', 39, 1, 10, 2) 
+const premium = new Plan('Premium', 49, 5, 50, 4) 
+const business = new Plan('Business', 59, 20, 100, 10) 
+
+export const data = [basic, premium, business]
