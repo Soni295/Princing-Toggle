@@ -8,8 +8,8 @@
 If you start the proyect, copy and paste these commands in your console.
 
  ```bash
- $ git clone https://github.com/Soni295/Easybank-landing-page
- $ cd Easybank-landing-page
+ $ git clone https://github.com/Soni295/Princing-Toggle.git
+ $ cd Princing-Toggle
  $ yarn install
  $ yarn start 
  ```
