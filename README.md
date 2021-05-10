@@ -9,7 +9,7 @@ If you start the proyect, copy and paste these commands in your console.
 
  ```bash
  $ git clone https://github.com/Soni295/Easybank-landing-page
- $ cd Princing-Toggle
+ $ cd Easybank-landing-page
  $ yarn install
  $ yarn start 
  ```
